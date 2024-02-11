@@ -1,0 +1,32 @@
+th,
+td {
+  box-sizing: border-box;
+  width: 250px;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid #000000;
+}
+
+.headerTable {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.transactionTable {
+  font-size: 20px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.secondaryВg {
+  background-color: #a8a8a8;
+}
+
+.columnType {
+  text-align: left;
+  padding-left: 80px;
+}
+
+.columnType::first-letter {
+  text-transform: uppercase;
+}
